@@ -74,4 +74,4 @@ if st.button('Predict Score'):
     })
     # st.table(input_df)
     result=pipe.predict(input_df)
-    st.hear("Predicted Score is :"+str(int(result[0])))
+    st.header("Predicted Score is - "+str(int(result[0])))
